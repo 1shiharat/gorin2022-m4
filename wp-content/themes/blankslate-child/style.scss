@@ -309,3 +309,18 @@ a.card {
     opacity: 0.7;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  a {
+    display: block;
+    background: #e8e8e8;
+    text-decoration: none;
+    padding: 12px 24px;
+    color: #222;
+  }
+}

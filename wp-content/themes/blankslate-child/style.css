@@ -285,4 +285,21 @@ a.card {
 }
 a.card:hover {
   opacity: 0.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links a {
+  display: block;
+  background: #e8e8e8;
+  text-decoration: none;
+  padding: 12px 24px;
+  color: #222;
 }/*# sourceMappingURL=style.css.map */
