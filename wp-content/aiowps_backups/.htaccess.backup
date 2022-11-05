@@ -1,0 +1,26 @@
+
+
+# BEGIN WordPress
+# "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /gorin2022/m4-practice1/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /gorin2022/m4-practice1/index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Begin AIOWPSEC Firewall
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/shuntem/domains/shuntem.net/public_html/gorin2022/m4-practice1/aios-bootstrap.php'
+</IfModule>
+<IfModule lsapi_module>
+php_value auto_prepend_file '/home/shuntem/domains/shuntem.net/public_html/gorin2022/m4-practice1/aios-bootstrap.php'
+</IfModule>
+# End AIOWPSEC Firewall
