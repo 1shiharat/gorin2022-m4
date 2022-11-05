@@ -276,4 +276,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     margin-right: 64px;
   }
+}
+a.card {
+  display: block;
+  text-decoration: none;
+  transition: all ease 0.2s;
+  color: inherit;
+}
+a.card:hover {
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */

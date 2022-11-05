@@ -60,14 +60,14 @@
 
         ?>
             <div class="col">
-              <div class="card">
+              <a href="<?php the_permalink() ?>" class="card">
                 <img src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'thumbnail')) ?>) ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><?php the_title() ?></h5>
                   <p class="card-text"><?php the_content() ?></p>
                   <div class="c-event__card-footer d-flex justify-content-between"><span class="c-event__category"><?php echo get_the_terms(get_the_ID(), 'event-category')[0]->name ?></span><span class="c-event__day"><?php echo get_the_date() ?></span></div>
                 </div>
-              </div>
+              </a>
             </div>
         <?php
 

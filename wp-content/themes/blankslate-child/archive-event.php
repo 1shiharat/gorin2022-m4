@@ -15,7 +15,7 @@
       <select class="w-50 form-select" aria-label="Default select example" name="category">
         <option value="">指定なし</option>
         <?php foreach ($terms as $term) : ?>
-          <option value="<?php echo $term->term_id ?>"><?php echo $term->name ?></option>
+          <option <?php selected($term->term_id, filter_input(INPUT_GET,"category"), true) ?> value="<?php echo $term->term_id ?>"><?php echo $term->name ?></option>
         <?php endforeach ?>
       </select>
       <button class="btn btn-primary" type="submit">決定</button>
