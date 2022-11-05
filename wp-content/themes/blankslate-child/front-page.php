@@ -40,7 +40,7 @@
 
   <section class="l-section container">
     <div class="c-event">
-      <div class="c-event__title">
+      <div class="c-event__title mb-4">
         <h2 class="">お知らせ</h2>
       </div>
 
@@ -78,7 +78,7 @@
       </div>
 
       <div class="c-event__btn">
-        <a href="" class="btn btn-xlg btn-primary">お知らせ一覧を見る</a>
+        <a href="<?php echo esc_url( home_url("/event/") ) ?>" class="btn btn-xlg btn-primary">お知らせ一覧を見る</a>
       </div>
 
     </div>
@@ -92,7 +92,7 @@
       <div class="c-booth__content">
         <div class="c-booth__text">
           <p>紹介はこちら！！ てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-          <a href="" class="btn btn-xlg btn-primary">企業ブース紹介を見る</a>
+          <a href="<?php echo esc_url( home_url("/booth/") ) ?>" class="btn btn-xlg btn-primary">企業ブース紹介を見る</a>
         </div>
         <div class="c-booth__img">
           <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/thread-gf1eea1af3_1920.jpg')) ?>" alt="">

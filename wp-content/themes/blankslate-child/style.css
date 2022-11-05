@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .l-section {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .c-main-view {
@@ -167,10 +167,12 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-right: 2em;
 }
 @media (max-width: 1000px) {
   .c-booth__text {
     margin-top: 0%;
+    padding-right: 0;
   }
 }
 .c-booth__img {
