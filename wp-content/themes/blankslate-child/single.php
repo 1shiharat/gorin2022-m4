@@ -7,7 +7,7 @@
 <footer class="footer">
 	<div class="navs">
 	<?php 
-	echo get_the_post_navigation( );
+	the_post_navigation( );
 	?>
 	</div>
 	<div class="text-center">
