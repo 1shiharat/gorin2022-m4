@@ -15,7 +15,7 @@
   <header class="l-header">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="l-header__logo navbar-brand" href="<?php echo home_url('') ?>"><img src="<?php echo esc_url(get_theme_file_uri('/m4-image/logo.svg')) ?>" alt=""></a>
+        <a class="l-header__logo navbar-brand" href="<?php echo home_url('') ?>"><img src="<?php echo esc_url(get_theme_file_uri('/m4-image/logo.svg')) ?>" alt="Makeing Show"></a>
 
         <button class="l-header__btn navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span></span>
