@@ -223,6 +223,9 @@
 }
 
 .c-main-view .btn.btn-lg {
-  padding: 16px 58px;
+  padding: 20px 4em;
   white-space: nowrap;
+  @media(max-width: 768px){
+    padding: 14px 1.6em;
+  }
 }
