@@ -5,7 +5,7 @@
       <div class="d-flex  flex-column justify-content-center align-items-center">
         <h2>Making Show</h2>
         <div>2022.12.10 - 2022.12.25</div>
-        <a href="<?php echo home_url('/ticket') ?>" class="mt-3 btn btn-lg btn-primary">チケット購入はこちら</a>
+        <a href="<?php echo home_url('/ticket') ?>" class="mt-3 btn btn-xlg btn-primary">チケット購入はこちら</a>
       </div>
     </div>
 
@@ -78,7 +78,7 @@
       </div>
 
       <div class="c-event__btn">
-        <a href="" class="btn btn-primary">お知らせ一覧を見る</a>
+        <a href="" class="btn btn-xlg btn-primary">お知らせ一覧を見る</a>
       </div>
 
     </div>
@@ -92,7 +92,7 @@
       <div class="c-booth__content">
         <div class="c-booth__text">
           <p>紹介はこちら！！ てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-          <a href="" class="btn btn-primary">企業ブース紹介を見る</a>
+          <a href="" class="btn btn-xlg btn-primary">企業ブース紹介を見る</a>
         </div>
         <div class="c-booth__img">
           <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/thread-gf1eea1af3_1920.jpg')) ?>" alt="">
@@ -108,10 +108,9 @@
           <h2>ご来場の方へ</h2>
         </div>
         <p>ご来場にはチケットが必要です</p>
-        <a href="<?php echo home_url('/ticket') ?>" class="btn btn-primary">チケット購入はこちら</a>
+        <a href="<?php echo home_url('/ticket') ?>" class="btn btn-xlg btn-primary">チケット購入はこちら</a>
       </div>
       <div class="c-tiket__img">
-
         <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/home-thread-g7321d5b07_1920.jpg')) ?>" alt="">
       </div>
     </div>

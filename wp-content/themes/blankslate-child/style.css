@@ -2,6 +2,10 @@
   Template: blankslate
   ThemeName: practice3
 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 .l-header nav {
   padding: 0;
 }
@@ -123,6 +127,7 @@
 
 .c-event__title h2 {
   color: #fd9d0d;
+  font-weight: bold;
 }
 .c-event__category {
   background-color: #fd9d0d;
@@ -225,12 +230,12 @@
   background-color: #fd9d0d;
 }
 
-.c-main-view .btn.btn-lg {
+.btn.btn-xlg {
   padding: 20px 4em;
   white-space: nowrap;
 }
 @media (max-width: 768px) {
-  .c-main-view .btn.btn-lg {
+  .btn.btn-xlg {
     padding: 14px 1.6em;
   }
 }
