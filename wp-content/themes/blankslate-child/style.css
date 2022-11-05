@@ -1,6 +1,6 @@
 /*
   Template: blankslate
-  ThemeName: blankslate-child
+  ThemeName: practice3
 */
 .l-header nav {
   padding: 0;
@@ -59,9 +59,12 @@
   margin-top: 100px;
 }
 
+.c-main-view {
+  position: relative;
+}
 .c-main-view__content {
   position: absolute;
-  top: 40%;
+  top: 48%;
   left: 50%;
   translate: -50% -50%;
   z-index: 1000;
@@ -220,4 +223,9 @@
 .l-footer {
   height: 300px;
   background-color: #fd9d0d;
+}
+
+.c-main-view .btn.btn-lg {
+  padding: 16px 58px;
+  white-space: nowrap;
 }/*# sourceMappingURL=style.css.map */

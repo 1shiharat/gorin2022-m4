@@ -2,10 +2,10 @@
 <main>
   <div class="c-main-view">
     <div class="c-main-view__content">
-      <div class="d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex  flex-column justify-content-center align-items-center">
         <h2>Making Show</h2>
         <div>2022.12.10 - 2022.12.25</div>
-        <a href="<?php echo home_url('/ticket') ?>" class="mt-3 btn btn-primary">チケット購入はこちら</a>
+        <a href="<?php echo home_url('/ticket') ?>" class="mt-3 btn btn-lg btn-primary">チケット購入はこちら</a>
       </div>
     </div>
 

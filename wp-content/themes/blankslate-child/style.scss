@@ -65,7 +65,7 @@
   position: relative;
   &__content {
     position: absolute;
-    top: 40%;
+    top: 48%;
     @media (max-width: 1000px) {
       top: 50%;
     }
@@ -220,4 +220,9 @@
 .l-footer {
   height: 300px;
   background-color: #fd9d0d;
+}
+
+.c-main-view .btn.btn-lg {
+  padding: 16px 58px;
+  white-space: nowrap;
 }
