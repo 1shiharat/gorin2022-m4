@@ -5,6 +5,7 @@
 .l-header {
   nav {
     padding: 0;
+
     div {
       background-color: #fd9d0d;
       height: 100%;
@@ -17,6 +18,7 @@
     height: 40px;
     width: 40px;
     position: relative;
+
     span {
       display: block;
       width: 30px;
@@ -30,20 +32,25 @@
     span:nth-child(1) {
       top: 30%;
     }
+
     span:nth-child(2) {
       top: 50%;
     }
+
     span:nth-child(3) {
       top: 70%;
     }
   }
+
   &__logo {
     width: 300px;
     margin-left: 20px;
     padding: 0;
+
     @media (max-width: 950px) {
       width: 150px;
     }
+
     img {
       width: 100%;
       height: 100%;
@@ -63,24 +70,31 @@
 
 .c-main-view {
   position: relative;
+
   &__content {
     position: absolute;
     top: 48%;
+
     @media (max-width: 1000px) {
       top: 50%;
     }
+
     left: 50%;
     translate: -50% -50%;
     z-index: 1000;
     color: white;
+
     h2 {
       font-size: 5rem;
+
       @media (max-width: 1000px) {
         font-size: 3rem;
       }
     }
+
     div {
       font-size: 2.5rem;
+
       @media (max-width: 1000px) {
         font-size: 1rem;
       }
@@ -92,12 +106,15 @@
     height: 60vh;
     width: 100%;
     overflow: hidden;
+
     .carousel-inner {
       height: 100%;
     }
+
     .carousel-item {
       height: 100%;
       width: 100%;
+
       img {
         height: 100%;
         width: 100%;
@@ -131,6 +148,7 @@
     border-radius: 5px;
     padding: 3px 5px;
   }
+
   &__btn {
     margin-top: 40px;
     display: flex;
@@ -144,7 +162,9 @@
     h2 {
       color: #fd9d0d;
     }
+
     translate: 0 130%;
+
     @media (max-width: 1000px) {
       translate: 0 0%;
     }
@@ -153,6 +173,7 @@
   &__content {
     display: flex;
     justify-content: space-between;
+
     @media (max-width: 1000px) {
       flex-direction: column-reverse;
     }
@@ -163,6 +184,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     @media (max-width: 1000px) {
       margin-top: 0%;
     }
@@ -171,9 +193,11 @@
   &__img {
     width: 50%;
     height: 100%;
+
     @media (max-width: 1000px) {
       width: 100%;
     }
+
     img {
       width: 100%;
       height: 100%;
@@ -185,13 +209,16 @@
 .c-tiket {
   height: 400px;
   position: relative;
+
   &__title {
     h2 {
       color: white;
       font-size: 3rem;
     }
+
     margin-bottom: 40px;
   }
+
   &__content {
     position: absolute;
     height: 100%;
@@ -206,9 +233,11 @@
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.219);
   }
+
   &__img {
     height: 100%;
     width: 100%;
+
     img {
       width: 100%;
       height: 100%;
@@ -225,7 +254,45 @@
 .c-main-view .btn.btn-lg {
   padding: 20px 4em;
   white-space: nowrap;
-  @media(max-width: 768px){
+
+  @media(max-width: 768px) {
     padding: 14px 1.6em;
+  }
+}
+.l-header {
+  position: relative;
+}
+
+@media(min-width: 768px) {
+
+  
+  .l-header__tiket.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+    border-radius: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+@media(max-width: 768px) {
+  .l-header__btn.navbar-toggler {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    width: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+  }
+  .l-header__tiket.btn {
+    font-size: 12px;
+    margin-right: 64px;
   }
 }
