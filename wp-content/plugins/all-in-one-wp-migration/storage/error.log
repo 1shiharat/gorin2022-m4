@@ -43,3 +43,6 @@ Nov 05 2022 05:13:36
 Nov 05 2022 05:13:41
 {"type":8192,"message":"Constant FILTER_SANITIZE_STRING is deprecated","file":"\/home\/gorin202211\/public_html\/wp-content\/plugins\/wordpress-seo\/src\/conditionals\/third-party\/elementor-edit-conditional.php","line":28}
 
+Nov 05 2022 05:57:53
+{"type":8192,"message":"Constant FILTER_SANITIZE_STRING is deprecated","file":"\/home\/gorin202211\/public_html\/wp-content\/plugins\/wordpress-seo\/src\/conditionals\/third-party\/elementor-edit-conditional.php","line":28}
+

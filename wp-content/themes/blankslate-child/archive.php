@@ -1,13 +1,15 @@
 <?php get_header() ?>
 
-
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
 <section class="l-section container mb-5">
   <div class="c-event">
     <div class="c-event__title">
       <h2 class="">お知らせ</h2>
 
     </div>
-
+    
     <form action="<?php echo home_url('/event') ?>" method="get" class="my-3 d-flex">
       <?php
       $terms = get_terms('event-category');
@@ -66,4 +68,18 @@
 
 </section>
 
+</div>
+
+<div class="col-lg-4">
+  <div class="mt-5">
+    <ul class="c-menulist">
+      <?php 
+      wp_list_categories();
+      ?>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
 <?php get_footer() ?>
+

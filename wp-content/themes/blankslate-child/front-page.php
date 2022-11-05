@@ -3,8 +3,9 @@
   <div class="c-main-view">
     <div class="c-main-view__content">
       <div class="d-flex  flex-column justify-content-center align-items-center">
+        <p class="c-lead fs-5">すべてのクリエイターやファンをリアルでつなげる。</p>
         <h2>Making Show</h2>
-        <div>2022.12.10 - 2022.12.25</div>
+        <div>2022.11.05 (土) 11:00〜20:00<br>2022.11.06 (日) 10:00〜20:00</div>
         <a href="<?php echo home_url('/ticket') ?>" class="mt-3 btn btn-xlg btn-primary">チケット購入はこちら</a>
       </div>
     </div>
@@ -84,20 +85,53 @@
     </div>
 
   </section>
-  <section class="l-section container">
+  <section class="l-section  pt-5 pb-5 ">
+    <div class="container">
     <div class="c-booth">
       <div class="c-booth__title">
-        <h2>企業ブース紹介</h2>
+        <h2>開催情報</h2>
       </div>
       <div class="c-booth__content">
         <div class="c-booth__text">
-          <p>紹介はこちら！！ てきすとてきすとてきすとてきすとてきすとてきすとてきすとてきすと</p>
-          <a href="<?php echo esc_url( home_url("/booth/") ) ?>" class="btn btn-xlg btn-primary">企業ブース紹介を見る</a>
+          <table class="table">
+            <tr>
+              <th>会場/アクセス</th>
+              <td>
+                幕張メッセ 国際展示場 展示ホール1〜3<br>
+                千葉県千葉市美浜区中瀬2丁目1<br>
+                JR京葉線『海浜幕張駅』から徒歩約5分（東京から快速利用で約30分）<br>
+                JR総武線・京成線『幕張本郷駅』から『幕張メッセ中央』行きバスで約17分
+              </td>
+            </tr>
+            <tr>
+              <th>ブース数(2日間合計)</th>
+              <td>
+                企業ブース : 25ブース<br>
+                一般出店 : 1,800ブース<br>
+                ※ ブース配置はパンフレットをご参照ください。
+              </td>
+            </tr>
+            <tr>
+              <th>入場料</th>
+              <td>
+                1日券: 700円<br>
+                2日通し券: 1,200円<br>
+                ※前売り券は100円引き
+              </td>
+            </tr>
+            <tr>
+              <th>主催</th>
+              <td>
+                Making Show実行委員会
+              </td>
+            </tr>
+          </table>
         </div>
         <div class="c-booth__img">
-          <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/thread-gf1eea1af3_1920.jpg')) ?>" alt="">
+          <img src="https://www.bushikaku.net/images/expedition/venue/261004.jpg" alt="">
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -107,11 +141,11 @@
         <div class="c-tiket__title">
           <h2>ご来場の方へ</h2>
         </div>
-        <p>ご来場にはチケットが必要です</p>
+        <p>創作を通して、次の創作が生まれていく。そんな世界を作りませんか？</p>
         <a href="<?php echo home_url('/ticket') ?>" class="btn btn-xlg btn-primary">チケット購入はこちら</a>
       </div>
       <div class="c-tiket__img">
-        <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/home-thread-g7321d5b07_1920.jpg')) ?>" alt="">
+        <img src="<?php echo esc_url(get_theme_file_uri('/m4-image/bg-ticket.jpg')) ?>" alt="">
       </div>
     </div>
   </section>

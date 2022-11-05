@@ -96,8 +96,8 @@ h1,h2,h3,h4,h5,h6 {
     }
 
     div {
-      font-size: 2.5rem;
-
+      font-size: 1.5rem;
+      letter-spacing: 0.1em;
       @media (max-width: 1000px) {
         font-size: 1rem;
       }
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6 {
       color: #fd9d0d;
     }
 
-    translate: 0 130%;
+    // translate: 0 130%;
 
     @media (max-width: 1000px) {
       translate: 0 0%;
@@ -221,7 +221,7 @@ h1,h2,h3,h4,h5,h6 {
       font-size: 3rem;
     }
 
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 
   &__content {
@@ -237,6 +237,10 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.219);
+    p {
+      font-size: 18px;
+      margin-bottom: 2em;
+    }
   }
 
   &__img {
@@ -324,3 +328,4 @@ img {
     color: #222;
   }
 }
+.c-lead {}
